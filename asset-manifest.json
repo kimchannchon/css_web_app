@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-react_web_app-kimchann_chon/static/css/main.c49fca69.css",
+    "main.js": "/portfolio-react_web_app-kimchann_chon/static/js/main.c509bd47.js",
+    "static/js/787.c278f2d8.chunk.js": "/portfolio-react_web_app-kimchann_chon/static/js/787.c278f2d8.chunk.js",
+    "index.html": "/portfolio-react_web_app-kimchann_chon/index.html",
+    "main.c49fca69.css.map": "/portfolio-react_web_app-kimchann_chon/static/css/main.c49fca69.css.map",
+    "main.c509bd47.js.map": "/portfolio-react_web_app-kimchann_chon/static/js/main.c509bd47.js.map",
+    "787.c278f2d8.chunk.js.map": "/portfolio-react_web_app-kimchann_chon/static/js/787.c278f2d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c49fca69.css",
+    "static/js/main.c509bd47.js"
+  ]
+}
