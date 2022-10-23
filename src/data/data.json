@@ -1,21 +1,73 @@
 {
   "Header": {
     "title": "Hi, I'm Kimchann Chon",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title2": "Ph.D., University of Coimbra.",
+    "title3": "reside in Portugal",
+    "paragraph": "Welcome to my world"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+    "paragraph": "The significant revolution of blockchain and machine learning is transforming the recent digitalization era to the next stage of autonomous decision-making. Throughout my research on machine learning-based demand forecasting, the significant result proved the potential evolution of artificial intelligence to apply to industrial processes and the capability to integrate into various domains. Meanwhile, the crucial roles of blockchain focusing on security and privacy leverage the machine learning outcome toward a fully automated production.",
+    "school": [
+      "Ph.D., University of Coimbra",
+      "MSc, University of Ulsan",
+      "Academic Exchange, Daejeon University",
+      "BSc, Pannasastra University of Cambodia"
     ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+    "country": [
+      "Portugal",
+      "South Korea",
+      "South Korea",
+      "Cambodia"
+    ],
+    "work": [
+      "Research Assistant, Centre for Mechanical Engineering, Materials and Processes",
+      "Researcher, Blockchain Intelligence Convergence Center",
+      "Research Assistant, Convergence Lab of Human Factors and Artificial Intelligence",
+      "Cooperate Account Manager, South East Asia Telecom",
+      "Internship, Information and Data Unit"
+    ],
+    "country2": [
+      "Portugal",
+      "South Korea",
+      "South Korea",
+      "Cambodia",
+      "South Korea"
+    ],
+    "program": [
+      "Model United Nation",
+      "KF Korea Workshop: EAI ACE CHALLENGE",
+      "Model ASEAN-Korea Summit",
+      "YES Challenge Korea",
+      "ASEAN-Korea Youth Forum",
+      "ASEAN on Wheel",
+      "ASEAN-Korea Multimedia Exhibition",
+      "Social Enterprise Road",
+      "ASEAN in Today’s World",
+      "ASEAN Youth Leaders",
+      "Academic Conference on Thai-Cambodia Relations",
+      "ASEAN in Today’s World",
+      "Exploring ASEAN History and Cooperation",
+      "IYF World Camp",
+      "CYA International Workcamp",
+      "National CISCO ICT Education and Technology"
+    ],
+    "country3": [
+      "South Korea",
+      "South Korea",
+      "South Korea",
+      "South Korea",
+      "South Korea",
+      "South Korea",
+      "South Korea",
+      "South Korea",
+      "Malaysia",
+      "Thailand",
+      "Thailand",
+      "Vietnam",
+      "Cambodia",
+      "Cambodia",
+      "Cambodia",
+      "Cambodia"
     ]
   },
   "Gallery": [
@@ -151,34 +203,69 @@
       "job": "Project Manager"
     }
   ],
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+  "Contacts": {
+    "github": "https://github.com/kimchannchon",
+    "linkedin": "https://www.linkedin.com/in/kimchann-chon-101/",
+    "facebook": "https://web.facebook.com/kimchann.chon",
+    "instagram": "https://www.instagram.com/thechon.k/",
+    "youtube": "https://www.youtube.com/channel/UCPBr55YVkuWeJi0NbqQex1Q"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "img": "img/features/01.png",
+      "title": "Thesis of Master of Science",
+      "text": "Demand Forecasting of a First-Tier Supplier in Automotive Industry Using Nonlinear Autoregressive Network with Parsimonious Variables",
+      "link": "http://oak.ulsan.ac.kr/bitstream/2021.oak/5762/2/200000501590.pdf"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "img": "img/features/02.jpg",
+      "title": "2020 Fall Conference of the Korean Society of Industrial Engineers",
+      "text": "Demand Forecasting of a First-Tier Supplier in Automotive Industry Using Nonlinear Autoregressive Network with Parsimonious Variables",
+      "link": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE10505789"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "img": "img/features/03.png",
+      "title": "TensorFlow Developer Certificate",
+      "text": "Understanding of building TensorFlow models using Computer Vision, Convolutional Neural Networks, Natural Language Processing, and real-world image data and strategies",
+      "link": "https://www.credential.net/9d158270-4116-4b60-96bb-e4cc4fec7c38#gs.9zwfgy"
+    }
+  ],
+  "Project": [
+    {
+      "img": "img/project/01.png",
+      "title": "GISTSWAP, Decentralized Finance (DEFI)",
+      "text": "Decentralized finance (DEFI) aims to provide a decentralized exchange (DEX) platform with a secure and low transaction fee under the Ethereum network",
+      "link": "https://kimchannchon.com/2021/11/16/decentralized-bank-blockchain-defi-decentralized-finance-as-a-dapp-decentralized-application/"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "img": "img/project/02.png",
+      "title": "Decentralized Finance as a Decentralized Application – Yield Farming",
+      "text": "A decentralized application (DAPP) with custom personalized token functions for yield farming, staking, and rewarding in certain events",
+      "link": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE10505789"
+    },
+    {
+      "img": "img/project/03.png",
+      "title": "NFT Marketplace on a Blockchain Network",
+      "text": "A non-fungible token (NFT) marketplace for minting NFTs allows users to own their minted tokens on the market’s smart contract under the Ethereum network",
+      "link": "https://kimchannchon.com/2022/09/19/nft-marketplace-on-a-blockchain-network/"
+    },
+    {
+      "img": "img/project/04.png",
+      "title": "Automatic Ovako Working-Posture Analysis System application using deep learning",
+      "text": "Working posture assessment is a required obligation for industries to meet respective employees’ safety standard policy in a country. OWAS, a common assessment method, has analyzed workers’ postures related to work-related musculoskeletal disorders (WMSDs). The assessment is done by determining a score representing a level of risk factors",
+      "link": "https://kimchannchon.com/2021/10/25/automatic-ovako-working-posture-analysis-system-owas-application-using-deep-learning/"
+    },
+    {
+      "img": "img/project/06.png",
+      "title": "Demand forecasting of a first-tier supplier in the automotive industry using a nonlinear autoregressive network with parsimonious variables",
+      "text": "To respond to its demand fluctuation, a first-tier supplier should accurately predict supply on time for lean or just-in-time manufacturing. Overproduction due to inaccurate prediction causes a carrying cost by holding unnecessary stock in inventory. Meanwhile, underproduction causes stock out that probably causes additional direct and indirect costs",
+      "link": "https://aikimchann.wordpress.com/2021/10/11/demand-forecasting-of-a-first-tier-supplier-in-the-automotive-industry-using-a-nonlinear-autoregressive-network-with-parsimonious-variables/"
+    },
+    {
+      "img": "img/project/05.png",
+      "title": "Autonomous Driving Lane Detection",
+      "text": "Opencv library is used for image processing. The initialed image which is RGB in 3 channels is converted to a grayscale image as 1 channel [0, 255]. The image noise can create fault edges leading to uncertain edge detection",
+      "link": "https://aikimchann.wordpress.com/2022/02/22/driving-lane-detection/"
     }
   ]
 }

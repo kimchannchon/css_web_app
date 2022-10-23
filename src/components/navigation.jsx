@@ -1,7 +1,10 @@
+$(window).scroll(function(){
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top shadow'>
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='navbar-header'>
           <button
             type='button'
@@ -14,9 +17,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
-          </button>
+          </button>          
           <a className='navbar-brand page-scroll' href='#page-top'>
-            LOGO
+            <img src="img/logo01.png" alt="" />
           </a>{' '}
         </div>
 
@@ -24,18 +27,23 @@ export const Navigation = (props) => {
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
-          <ul className='nav navbar-nav navbar-left'>
-            <li>
-              <a href='#features' className='page-scroll'>
-                Features
-              </a>
-            </li>
+          <ul className='nav navbar-nav navbar-left'>           
             <li>
               <a href='#about' className='page-scroll'>
                 About
               </a>
             </li>
             <li>
+              <a href='#features' className='page-scroll'>
+                Features
+              </a>
+            </li>
+            <li>
+              <a href='#project' className='page-scroll'>
+                Project
+              </a>
+            </li>
+            {/* <li>
               <a href='#services' className='page-scroll'>
                 Services
               </a>
@@ -54,7 +62,7 @@ export const Navigation = (props) => {
               <a href='#team' className='page-scroll'>
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='#contact' className='page-scroll'>
                 Contact

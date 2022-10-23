@@ -3,8 +3,8 @@ html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  background: #000000;
-  color: #777;
+  background: #b6b6b8;
+  color: rgb(22, 22, 22);
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -38,6 +38,7 @@ h5 {
 }
 p {
   font-size: 15px;
+  text-justify: inter-word;
 }
 p.intro {
   margin: 12px 0 0;
@@ -73,25 +74,34 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 5px;
+  padding: 6px 15px;
   transition: all 0.8s;
 }
+#menu img {  
+  transition: all 0.8s;
+  width: 65;
+  margin: 0 30px 0 0;
+}
 #menu.navbar-default {
-  background-color: rgb(0, 0, 0);
-  border-color: rgba(231, 231, 231, 0);
+  /* background-color: rgba(0, 0, 0, 0); */
+  padding-left: 10%;
+  transition: 500ms ease;
+  background: transparent;
+  border-color: rgba(0, 0, 0, 0);
+  padding-top: 20px;
+}
+#menu.navbar-default.scrolled{
+  background: #b6b6b8;  
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
   text-transform: uppercase;
+  padding: 5px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  color: rgb(255, 255, 255);
+  color: #333;
   font-size: 14px;
   font-weight: 500;
   padding: 8px 2px;
@@ -157,7 +167,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: rgb(255, 64, 64);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -170,7 +180,7 @@ hr {
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(255, 64, 64);
   /* background-color: #5ca9fb; */
   /* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
   /* padding: 14px 34px; */
@@ -178,9 +188,10 @@ hr {
   margin: 0;
   font-size: 15px;
   font-weight: 500;
-  border-radius: 50%;
+  border-radius: 5px;
   transition: all 0.5s linear;
-  border: 1px;
+  border: 2px solid rgb(255, 64, 64);
+  background: #d6d6d6;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -189,7 +200,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: rgb(255, 64, 64);
 }
 .btn:active,
 .btn.active {
@@ -212,8 +223,9 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  height: 100%;
+  /* padding: 0; */
+  background: url(../img/intro-bg.jpg) right top no-repeat;
   background-color: #000000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,40 +233,77 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  letter-spacing: -3px;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+.intro h2 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 64, 64);
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.intro h3 {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  font-size: 48px;
+  font-weight: 600;
+  /* text-transform: capitalize; */
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: 35px;
 }
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 30px;
+  color: rgb(58, 58, 58);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  line-height: 10px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 header .intro-text {
-  padding-top: 300px;
+  margin-top: 25%;
   padding-bottom: 100px;
-  padding-left: 0;
+  padding-left: 10%;
   text-align: left;
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background: #dbdbdb00;
+  padding: 100px;
 }
-#features i.fa {
+/* #features a {
+  width: 50px;
+  height: 30px;
+  background: #000000;
+  border: 1px solid #000000;
+} */
+#features h2 {
+  text-align: center;
+}
+#features .features-img {
+  height: 350px;
+  /* border-radius: 10px; */
+}
+/* #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -263,16 +312,30 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: rgb(34, 34, 34);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+} */
+/* Project Section */
+#project {
+  background: #dbdbdb00;
+  padding: 100px;
+}
+#project h2 {
+  text-align: center;
+}
+#project .features-img {
+  height: 350px;
+  /* border-radius: 10px; */
 }
 /* About Section */
 #about {
   padding: 100px 0;
+  background: #f6f6f6;
 }
 #about h3 {
   font-size: 22px;
-  margin: 0 0 20px;
+  margin: 0;
+  line-height: 60px;
 }
 #about h2 {
   position: relative;
@@ -282,11 +345,15 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: rgb(255, 64, 64);
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
   height: 4px;
   width: 60px;
   bottom: 0;
   left: 0;
+}
+#about .about-text {
+  padding-left: 5rem;
 }
 #about .about-text li {
   margin-bottom: 6px;
@@ -295,23 +362,57 @@ header .intro-text {
   padding: 0;
 }
 #about .about-text li:before {
-  content: "\f00c";
+  content: "\f041";
   font-family: "FontAwesome";
-  color: #5ca9fb;
-  font-size: 11px;
+  color: rgb(255, 64, 64);
+  font-size: 12px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+#about .country li:before {
+  content: "\f19d";
+  font-family: "FontAwesome";
+  color: rgb(255, 64, 64);
+  font-size: 12px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+#about .work li:before {
+  content: "\f0b1";
+  font-family: "FontAwesome";
+  color: rgb(255, 64, 64);
+  font-size: 12px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+#about .program li:before {
+  content: "\f072";
+  font-family: "FontAwesome";
+  color: rgb(255, 64, 64);
+  font-size: 12px;
   font-weight: 300;
   padding-right: 8px;
 }
 #about img {
-  width: 520px;
-  margin-top: 10px;
-  background: #fff;
-  border-right: 0;
+  width: 400px;
+  /* margin-top: 10px; */ 
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  border-radius: 0 10px 10px 0;
+}
+#about img:hover {
+  opacity: 0;
+}
+#about .img-color {
+  width: 400px;
+  padding: 0;
+  background: url(../img/about-rgb.jpg) center center no-repeat;
+  background-size: cover;
+  border-radius: 0 10px 10px 0;
 }
 #about p {
   line-height: 24px;
   margin: 30px 0;
+  text-justify: inter-character;
 }
 /* Services Section */
 #services {
@@ -465,9 +566,9 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  /* padding: 100px 0 60px; */
+  background: #f6f6f6;
+  color: rgb(41, 41, 41);
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -476,7 +577,7 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #fff;
+  color: rgb(37, 37, 37);
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -491,7 +592,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: rgb(37, 37, 37);
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -580,14 +681,15 @@ label {
   width: 48px;
   height: 48px;
   padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 1px solid rgb(37, 37, 37);
+  color: rgb(37, 37, 37);
   border-radius: 50%;
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color:rgb(255, 64, 64);
   background: #fff;
+  border: 1px solid rgb(255, 64, 64);
 }
 /* Footer Section*/
 #footer {
