@@ -2,7 +2,7 @@ import React                       from "react";
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
-  "Ph.D., University Of Coimbra.",
+  "MSc, University Of Ulsan.",
   "Certified TensorFlow Developer.",
   "Blockchain Developer."
 ];
