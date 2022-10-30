@@ -393,6 +393,14 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
+#about .award li:before {
+  content: "\f559";
+  font-family: "FontAwesome";
+  color: rgb(255, 64, 64);
+  font-size: 12px;
+  font-weight: 300;
+  padding-right: 8px;
+}
 #about img {
   width: 400px;
   /* margin-top: 10px; */ 

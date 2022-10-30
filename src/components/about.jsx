@@ -74,6 +74,27 @@ export const About = (props) => {
                   </ul>
                 </div>
               </div>
+              <h3>Award</h3>
+              <div className="list-style">
+                <div className="col-lg-8 col-sm-8 col-xs-8">
+                  <ul className="award">
+                    {props.data
+                      ? props.data.award.map((d, i) => (
+                          <li key={`${d}-${i}`}>{d}</li>
+                        ))
+                      : "loading"}
+                  </ul>
+                </div>
+                <div className="col-lg-4 col-sm-4 col-xs-4">
+                  <ul>
+                    {props.data
+                      ? props.data.country4.map((d, i) => (
+                          <li key={`${d}-${i}`}> {d}</li>
+                        ))
+                      : "loading"}
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
