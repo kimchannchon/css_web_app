@@ -394,7 +394,7 @@ header .intro-text {
   padding-right: 8px;
 }
 #about .award li:before {
-  content: "\f559";
+  content: "\e0ab";
   font-family: "FontAwesome";
   color: rgb(255, 64, 64);
   font-size: 12px;
